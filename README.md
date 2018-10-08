@@ -2,9 +2,9 @@
 
 ## Considerations
 
-Chose Springboot framework for the solution. Added the credentials received from ``openweathermap`` to the the file applicaction.yml
+Chosen Springboot framework for the solution. Added the credentials received from ``openweathermap`` to the the file applicaction.yml
 
-Once was choose sspringboot,  tried to understand de API offered by: ``openweathermap``
+Once it was choosen springboot,  tried to understand de API offered by: ``openweathermap``
 Used some online tools to generate teh classes from the JSON received by the ``openweathermap`` API.
 
 Tested using: ``London`` as parameter.
