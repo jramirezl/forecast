@@ -17,8 +17,8 @@ Two services were used, each one with its own concern:
     
 * **ForecastService** Responsible for processing all the data and calculate the average. 
 
-In the testing load the JSON sample file to load the ``ResponseDto`` which is the root object ``openweathermap`` from the response
-of the API.
+In testing, a load JSON mechanism was used. Once the file is opened the content is loaded into``ResponseDto`` intance which is the root object ``openweathermap`` from the response
+from the API.
 
 If there is an error on the input it will return ``400 code`` on sucesss it will return ``200 code`` and if there is an error on the API it will return ``500 code``
 
@@ -32,7 +32,7 @@ For testing purposes, I created 2 Provider Components:
 
 You must have jsdk 1.8 installed and the latest gradle version.
 
-### Installation
+### Ins
 
 The installation process will compile the code and run the tests, open a console and
 run 
@@ -53,7 +53,7 @@ run
 Open the browser and open the following URL
 ```http://localhost:8080/swagger-ui.html```
 
-``localhost`` could vary depending on where the application have been installed. Please replace it accordingly.
+``localhost`` could vary depending on where the application has been installed. Please replace it accordingly.
 
 ### Libs and frameworks used 
 
@@ -70,7 +70,7 @@ The next are the libs and tools used to work properly:
 * Improve tests, just happy path test were created,  add more scenarios 
 * Fix WeatherRestServiceUnitTest test
 * Improve controller input validation
-* Manage better the exception when the connection to the ``openweathermap`` API fails
+* Manage the exception better when the connection to the ``openweathermap`` API fails
 * Manage exceptions when a city doesn't exist
 
 
