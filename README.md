@@ -4,13 +4,12 @@
 
 Chose Springboot framework for the solution. Added the credentials received from ``openweathermap`` to the the file applicaction.yml
 
-Once I choose springboot I tried to understand de API offered by: ``openweathermap``
-
+Once was choose sspringboot,  tried to understand de API offered by: ``openweathermap``
 Used some online tools to generate teh classes from the JSON received by the ``openweathermap`` API.
 
 Tested using: ``London`` as parameter.
 
-For testing I just considered the happy path to test
+For testing it was just considered the happy path to test
 
 Used 2 Services, each one with its own concern, 
 
