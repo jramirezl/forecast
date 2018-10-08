@@ -1,6 +1,6 @@
-#Forecast Reader
+# Forecast Reader
 
-##Considerations
+## Considerations
 
 Chose Springboot framework for the solution. Added the credentials received from ``openweathermap`` to the the file applicaction.yml
 
@@ -29,7 +29,7 @@ For testing proposes I created 2 Providers Components
 * TimeStampProvider to get the current time and avoid to use PowerMockito in testing
 * ClientBuilderProvider to get teh JAX-RS client and avoid to use PowerMockito in testing
 
-##Requirements
+### Requirements
 
 You must have installed jsdk 1.8 and the latest gradle version.
 
@@ -42,7 +42,7 @@ run
     gradle build
 ```
 
-###Run the Application
+### Run the Application
 
 The installation process will compile teh code and run the tests, open a console and
 run 
@@ -56,7 +56,7 @@ Open the browser and open the following URL
 
 ``localhost`` could vary depending on where you installed the application, please replace it accordingly.
 
-###Libs and frameworks used 
+### Libs and frameworks used 
 
 The next are the libs and tools used to work properly:
 
@@ -66,7 +66,7 @@ The next are the libs and tools used to work properly:
 * [JAX-RS] - High-level interfaces and annotations used to create RESTful service resources.
 * [Project Lombok] - Project Lombok is a java library that automatically plugs into your editor and build tools, spicing up your java.
 
-###To Do (things to improve)
+### To Do (things to improve)
 
 * Improve tests, just happy path test were created
 * Fix WeatherRestServiceUnitTest test
