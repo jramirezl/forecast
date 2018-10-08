@@ -31,7 +31,7 @@ For testing purposes, I created 2 Provider Components:
 ### Requirements
 You must have jsdk 1.8 installed and the latest gradle version.
 
-### Ins
+### Installation
 
 The installation process will compile the code and run the tests, open a console and
 run 
