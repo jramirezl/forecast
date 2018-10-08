@@ -2,14 +2,14 @@
 
 ## Considerations
 
-Springboot framework was chosen for the solution. Added the credentials received from ``openweathermap`` to the the file,, ``application.yml``
+Springboot framework was chosen for the solution. The credentials received from ``openweathermap`` to the the file,, were addesñd to the``application.yml`` file. 
 
-Once it was choosen springboot,  tried to understand de API offered by: ``openweathermap``
-Some online tools used to generate the classes, havig the JSON received from the ``openweathermap`` API as input.
+Once Springboot it was chosen, tried to understand the API offered by: ``openweathermap``
+Some online tools used to generate the classes used to retrieve the data from the JSON that was received from the ``openweathermap`` API call as response.
 
 Tested using: ``London`` as parameter.
 
-For testing, the happy path it was just considered. 
+For testing, the happy path was just considered. 
 
 Two services were used, each one with its own concern: 
 
@@ -20,17 +20,17 @@ Two services were used, each one with its own concern:
 In the testing load the JSON sample file to load the ``ResponseDto`` which is the root object ``openweathermap`` from the response
 of the API.
 
-If there is an error on the input it will return ``400 code`` on sucesss it will return ``200 code`` and if is there is an error on the API will return ``500 code``
+If there is an error on the input it will return ``400 code`` on sucesss it will return ``200 code`` and if there is an error on the API it will return ``500 code``
 
 To calculate the average of the following dates, it considered the dates after the current date (tomorrow included) and 3 days were counted. 
 
-For testing purpose I created 2 Providers Components
-* TimeStampProvider to get the current time and avoid to use PowerMockito in testing
-* ClientBuilderProvider to get the JAX-RS client and avoid to use PowerMockito in testing
+For testing purposes, I created 2 Provider Components:
+* TimeStampProvider to get the current time and avoid used PowerMockito in testing
+* ClientBuilderProvider to get the JAX-RS client intance and avoid using PowerMockito in testing
 
 ### Requirements
 
-You must have installed jsdk 1.8 and the latest gradle version.
+You must have jsdk 1.8 installed and the latest gradle version.
 
 ### Installation
 
@@ -53,7 +53,7 @@ run
 Open the browser and open the following URL
 ```http://localhost:8080/swagger-ui.html```
 
-``localhost`` could vary depending on where you installed the application, please replace it accordingly.
+``localhost`` could vary depending on where the application have been installed. Please replace it accordingly.
 
 ### Libs and frameworks used 
 
@@ -67,11 +67,11 @@ The next are the libs and tools used to work properly:
 
 ### To Do (things to improve)
 
-* Improve tests, just happy path test were created
+* Improve tests, just happy path test were created,  add more scenarios 
 * Fix WeatherRestServiceUnitTest test
 * Improve controller input validation
 * Manage better the exception when the connection to the ``openweathermap`` API fails
-* Manage when a city doesn't exist
+* Manage exceptions when a city doesn't exist
 
 
 
