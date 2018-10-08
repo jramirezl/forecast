@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class com.finleap.forecast.service.ForecastServiceUnitTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class com.finleap.forecast.service.ForecastServiceUnitTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/com.finleap.forecast.service.html">com.finleap.forecast.service</a> &gt; ForecastServiceUnitTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">1</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.056s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">testGetWeatherByCity</td>
+<td>0.056s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>2018-10-07 21:12:39.217  INFO 11939 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.finleap.forecast.service.ForecastServiceUnitTest], using SpringBootContextLoader
+2018-10-07 21:12:39.218  INFO 11939 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.finleap.forecast.service.ForecastServiceUnitTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-10-07 21:12:39.218  INFO 11939 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.finleap.forecast.service.ForecastServiceUnitTest]: ForecastServiceUnitTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-10-07 21:12:39.222  INFO 11939 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.finleap.forecast.ForecastApplication for test class com.finleap.forecast.service.ForecastServiceUnitTest
+2018-10-07 21:12:39.224  INFO 11939 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-10-07 21:12:39.225  INFO 11939 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@30c1efe8, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@3bc8df04, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@2c1aa1f0, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@5ca2d8b9, org.springframework.test.context.support.DirtiesContextTestExecutionListener@6323c26a, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@1e6e01f5, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@678236e9, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@2daf5db0, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@50e2eafd, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@3eed38bd]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.5.RELEASE)
+
+2018-10-07 21:12:39.245  INFO 11939 --- [    Test worker] c.f.f.service.ForecastServiceUnitTest    : Starting ForecastServiceUnitTest on Juans-MacBook-Pro.local with PID 11939 (started by jpramirez in /Users/jpramirez/code/tests/finelap/forecast)
+2018-10-07 21:12:39.245  INFO 11939 --- [    Test worker] c.f.f.service.ForecastServiceUnitTest    : No active profile set, falling back to default profiles: default
+2018-10-07 21:12:39.247  INFO 11939 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@38710da7: startup date [Sun Oct 07 21:12:39 COT 2018]; root of context hierarchy
+2018-10-07 21:12:39.779  INFO 11939 --- [    Test worker] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-10-07 21:12:40.102  INFO 11939 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/data],methods=[GET],produces=[application/json]}&quot; onto public org.springframework.http.ResponseEntity&lt;?&gt; com.finleap.forecast.controller.ForecastController.get(java.lang.String)
+2018-10-07 21:12:40.104  INFO 11939 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/swagger-resources/configuration/security]}&quot; onto public org.springframework.http.ResponseEntity&lt;springfox.documentation.swagger.web.SecurityConfiguration&gt; springfox.documentation.swagger.web.ApiResourceController.securityConfiguration()
+2018-10-07 21:12:40.104  INFO 11939 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/swagger-resources/configuration/ui]}&quot; onto public org.springframework.http.ResponseEntity&lt;springfox.documentation.swagger.web.UiConfiguration&gt; springfox.documentation.swagger.web.ApiResourceController.uiConfiguration()
+2018-10-07 21:12:40.105  INFO 11939 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/swagger-resources]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.List&lt;springfox.documentation.swagger.web.SwaggerResource&gt;&gt; springfox.documentation.swagger.web.ApiResourceController.swaggerResources()
+2018-10-07 21:12:40.107  INFO 11939 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error]}&quot; onto public org.springframework.http.ResponseEntity&lt;java.util.Map&lt;java.lang.String, java.lang.Object&gt;&gt; org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-07 21:12:40.107  INFO 11939 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped &quot;{[/error],produces=[text/html]}&quot; onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-07 21:12:40.190  INFO 11939 --- [    Test worker] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity&lt;springfox.documentation.spring.web.json.Json&gt; springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+2018-10-07 21:12:40.331  INFO 11939 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-07 21:12:40.361  INFO 11939 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@38710da7: startup date [Sun Oct 07 21:12:39 COT 2018]; root of context hierarchy
+2018-10-07 21:12:40.378  INFO 11939 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-07 21:12:40.378  INFO 11939 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-07 21:12:40.475  INFO 11939 --- [    Test worker] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 2147483647
+2018-10-07 21:12:40.475  INFO 11939 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2018-10-07 21:12:40.476  INFO 11939 --- [    Test worker] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2018-10-07 21:12:40.481  INFO 11939 --- [    Test worker] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2018-10-07 21:12:40.515  INFO 11939 --- [    Test worker] c.f.f.service.ForecastServiceUnitTest    : Started ForecastServiceUnitTest in 1.289 seconds (JVM running for 7.869)
+2018-10-07 21:12:40.567  INFO 11939 --- [    Test worker] c.f.f.service.ForecastServiceImpl        : ResponseDto(cod=200, message=0.0049, cnt=38.0, list=[Items(dt=1538892000, main=Main(temp=283.38, tempMin=281.454, tempMax=283.38, pressure=955.24, seaLevel=1026.55, grndLevel=955.24, humidity=98, tempKf=1.93), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01d)], clouds=Clouds(all=0), wind=Wind(speed=1.07, deg=156.001), sys=Sys(pod=d), date=2018-10-07T06:00, rain=null, snow=null), Items(dt=1538902800, main=Main(temp=290.89, tempMin=289.446, tempMax=290.89, pressure=956.37, seaLevel=1026.93, grndLevel=956.37, humidity=77, tempKf=1.45), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01d)], clouds=Clouds(all=0), wind=Wind(speed=1.51, deg=189.0), sys=Sys(pod=d), date=2018-10-07T09:00, rain=null, snow=null), Items(dt=1538913600, main=Main(temp=293.39, tempMin=292.428, tempMax=293.39, pressure=956.19, seaLevel=1026.45, grndLevel=956.19, humidity=70, tempKf=0.97), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01d)], clouds=Clouds(all=0), wind=Wind(speed=2.02, deg=62.0006), sys=Sys(pod=d), date=2018-10-07T12:00, rain=null, snow=null), Items(dt=1538924400, main=Main(temp=292.26, tempMin=291.78, tempMax=292.26, pressure=956.63, seaLevel=1026.79, grndLevel=956.63, humidity=68, tempKf=0.48), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01d)], clouds=Clouds(all=0), wind=Wind(speed=2.91, deg=72.5051), sys=Sys(pod=d), date=2018-10-07T15:00, rain=null, snow=null), Items(dt=1538935200, main=Main(temp=287.312, tempMin=287.312, tempMax=287.312, pressure=957.84, seaLevel=1028.43, grndLevel=957.84, humidity=82, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01n)], clouds=Clouds(all=0), wind=Wind(speed=2.63, deg=89.5029), sys=Sys(pod=n), date=2018-10-07T18:00, rain=null, snow=null), Items(dt=1538946000, main=Main(temp=283.943, tempMin=283.943, tempMax=283.943, pressure=958.88, seaLevel=1030.11, grndLevel=958.88, humidity=95, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01n)], clouds=Clouds(all=0), wind=Wind(speed=2.21, deg=72.501), sys=Sys(pod=n), date=2018-10-07T21:00, rain=null, snow=null), Items(dt=1538956800, main=Main(temp=282.465, tempMin=282.465, tempMax=282.465, pressure=959.55, seaLevel=1031.11, grndLevel=959.55, humidity=99, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01n)], clouds=Clouds(all=0), wind=Wind(speed=2.52, deg=78.0019), sys=Sys(pod=n), date=2018-10-08T00:00, rain=null, snow=null), Items(dt=1538967600, main=Main(temp=280.941, tempMin=280.941, tempMax=280.941, pressure=959.62, seaLevel=1031.53, grndLevel=959.62, humidity=100, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01n)], clouds=Clouds(all=0), wind=Wind(speed=1.65, deg=70.5012), sys=Sys(pod=n), date=2018-10-08T03:00, rain=null, snow=null), Items(dt=1538978400, main=Main(temp=280.439, tempMin=280.439, tempMax=280.439, pressure=960.69, seaLevel=1032.82, grndLevel=960.69, humidity=100, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01d)], clouds=Clouds(all=0), wind=Wind(speed=2.12, deg=83.0015), sys=Sys(pod=d), date=2018-10-08T06:00, rain=null, snow=null), Items(dt=1538989200, main=Main(temp=287.652, tempMin=287.652, tempMax=287.652, pressure=961.9, seaLevel=1033.05, grndLevel=961.9, humidity=85, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01d)], clouds=Clouds(all=0), wind=Wind(speed=2.06, deg=83.5031), sys=Sys(pod=d), date=2018-10-08T09:00, rain=null, snow=null), Items(dt=1539000000, main=Main(temp=291.682, tempMin=291.682, tempMax=291.682, pressure=961.48, seaLevel=1032.15, grndLevel=961.48, humidity=74, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01d)], clouds=Clouds(all=0), wind=Wind(speed=2.97, deg=72.5018), sys=Sys(pod=d), date=2018-10-08T12:00, rain=null, snow=null), Items(dt=1539010800, main=Main(temp=291.798, tempMin=291.798, tempMax=291.798, pressure=961.22, seaLevel=1031.79, grndLevel=961.22, humidity=70, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01d)], clouds=Clouds(all=0), wind=Wind(speed=3.71, deg=79.0012), sys=Sys(pod=d), date=2018-10-08T15:00, rain=null, snow=null), Items(dt=1539021600, main=Main(temp=288.064, tempMin=288.064, tempMax=288.064, pressure=961.95, seaLevel=1032.92, grndLevel=961.95, humidity=79, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01n)], clouds=Clouds(all=0), wind=Wind(speed=3.42, deg=83.0025), sys=Sys(pod=n), date=2018-10-08T18:00, rain=null, snow=null), Items(dt=1539032400, main=Main(temp=285.057, tempMin=285.057, tempMax=285.057, pressure=962.58, seaLevel=1033.86, grndLevel=962.58, humidity=92, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01n)], clouds=Clouds(all=0), wind=Wind(speed=3.0, deg=80.0007), sys=Sys(pod=n), date=2018-10-08T21:00, rain=null, snow=null), Items(dt=1539043200, main=Main(temp=282.411, tempMin=282.411, tempMax=282.411, pressure=962.87, seaLevel=1034.59, grndLevel=962.87, humidity=97, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01n)], clouds=Clouds(all=0), wind=Wind(speed=2.06, deg=81.5011), sys=Sys(pod=n), date=2018-10-09T00:00, rain=null, snow=null), Items(dt=1539054000, main=Main(temp=280.34, tempMin=280.34, tempMax=280.34, pressure=962.9, seaLevel=1034.79, grndLevel=962.9, humidity=100, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01n)], clouds=Clouds(all=0), wind=Wind(speed=0.82, deg=93.5052), sys=Sys(pod=n), date=2018-10-09T03:00, rain=null, snow=null), Items(dt=1539064800, main=Main(temp=279.702, tempMin=279.702, tempMax=279.702, pressure=963.2, seaLevel=1035.41, grndLevel=963.2, humidity=96, tempKf=0.0), weather=[Weather(id=801, main=Clouds, description=few clouds, icon=02d)], clouds=Clouds(all=12), wind=Wind(speed=0.31, deg=139.001), sys=Sys(pod=d), date=2018-10-09T06:00, rain=null, snow=null), Items(dt=1539075600, main=Main(temp=286.669, tempMin=286.669, tempMax=286.669, pressure=963.87, seaLevel=1035.14, grndLevel=963.87, humidity=84, tempKf=0.0), weather=[Weather(id=500, main=Rain, description=light rain, icon=10d)], clouds=Clouds(all=8), wind=Wind(speed=1.37, deg=37.5017), sys=Sys(pod=d), date=2018-10-09T09:00, rain=Rain(h=0.02), snow=null), Items(dt=1539086400, main=Main(temp=290.797, tempMin=290.797, tempMax=290.797, pressure=963.26, seaLevel=1033.96, grndLevel=963.26, humidity=76, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01d)], clouds=Clouds(all=0), wind=Wind(speed=1.92, deg=48.5008), sys=Sys(pod=d), date=2018-10-09T12:00, rain=Rain(h=0.0), snow=null), Items(dt=1539097200, main=Main(temp=291.371, tempMin=291.371, tempMax=291.371, pressure=962.54, seaLevel=1033.13, grndLevel=962.54, humidity=71, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01d)], clouds=Clouds(all=0), wind=Wind(speed=2.57, deg=75.001), sys=Sys(pod=d), date=2018-10-09T15:00, rain=Rain(h=0.0), snow=null), Items(dt=1539108000, main=Main(temp=286.212, tempMin=286.212, tempMax=286.212, pressure=962.81, seaLevel=1033.67, grndLevel=962.81, humidity=93, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01n)], clouds=Clouds(all=0), wind=Wind(speed=2.16, deg=67.5042), sys=Sys(pod=n), date=2018-10-09T18:00, rain=Rain(h=0.0), snow=null), Items(dt=1539118800, main=Main(temp=282.643, tempMin=282.643, tempMax=282.643, pressure=962.74, seaLevel=1034.01, grndLevel=962.74, humidity=93, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01n)], clouds=Clouds(all=0), wind=Wind(speed=1.07, deg=88.008), sys=Sys(pod=n), date=2018-10-09T21:00, rain=Rain(h=0.0), snow=null), Items(dt=1539129600, main=Main(temp=281.191, tempMin=281.191, tempMax=281.191, pressure=962.48, seaLevel=1033.87, grndLevel=962.48, humidity=93, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01n)], clouds=Clouds(all=0), wind=Wind(speed=0.36, deg=122.501), sys=Sys(pod=n), date=2018-10-10T00:00, rain=Rain(h=0.0), snow=null), Items(dt=1539140400, main=Main(temp=280.25, tempMin=280.25, tempMax=280.25, pressure=961.55, seaLevel=1033.16, grndLevel=961.55, humidity=93, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01n)], clouds=Clouds(all=0), wind=Wind(speed=0.76, deg=144.501), sys=Sys(pod=n), date=2018-10-10T03:00, rain=Rain(h=0.0), snow=null), Items(dt=1539151200, main=Main(temp=279.763, tempMin=279.763, tempMax=279.763, pressure=960.95, seaLevel=1032.81, grndLevel=960.95, humidity=94, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01d)], clouds=Clouds(all=0), wind=Wind(speed=0.97, deg=160.5), sys=Sys(pod=d), date=2018-10-10T06:00, rain=Rain(h=0.0), snow=null), Items(dt=1539162000, main=Main(temp=288.158, tempMin=288.158, tempMax=288.158, pressure=961.08, seaLevel=1032.01, grndLevel=961.08, humidity=78, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01d)], clouds=Clouds(all=0), wind=Wind(speed=1.63, deg=207.009), sys=Sys(pod=d), date=2018-10-10T09:00, rain=Rain(h=0.0), snow=null), Items(dt=1539172800, main=Main(temp=292.148, tempMin=292.148, tempMax=292.148, pressure=959.93, seaLevel=1030.29, grndLevel=959.93, humidity=71, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01d)], clouds=Clouds(all=0), wind=Wind(speed=1.71, deg=98.5004), sys=Sys(pod=d), date=2018-10-10T12:00, rain=Rain(h=0.0), snow=null), Items(dt=1539183600, main=Main(temp=292.853, tempMin=292.853, tempMax=292.853, pressure=958.85, seaLevel=1029.05, grndLevel=958.85, humidity=69, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01d)], clouds=Clouds(all=0), wind=Wind(speed=1.88, deg=96.5), sys=Sys(pod=d), date=2018-10-10T15:00, rain=Rain(h=0.0), snow=null), Items(dt=1539194400, main=Main(temp=287.2, tempMin=287.2, tempMax=287.2, pressure=958.25, seaLevel=1028.8, grndLevel=958.25, humidity=85, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01n)], clouds=Clouds(all=0), wind=Wind(speed=2.51, deg=83.0041), sys=Sys(pod=n), date=2018-10-10T18:00, rain=Rain(h=0.0), snow=null), Items(dt=1539205200, main=Main(temp=283.395, tempMin=283.395, tempMax=283.395, pressure=957.76, seaLevel=1028.57, grndLevel=957.76, humidity=89, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01n)], clouds=Clouds(all=0), wind=Wind(speed=1.18, deg=108.506), sys=Sys(pod=n), date=2018-10-10T21:00, rain=Rain(h=0.0), snow=null), Items(dt=1539216000, main=Main(temp=281.504, tempMin=281.504, tempMax=281.504, pressure=957.53, seaLevel=1028.53, grndLevel=957.53, humidity=85, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01n)], clouds=Clouds(all=0), wind=Wind(speed=1.16, deg=137.003), sys=Sys(pod=n), date=2018-10-11T00:00, rain=Rain(h=0.0), snow=null), Items(dt=1539226800, main=Main(temp=279.995, tempMin=279.995, tempMax=279.995, pressure=957.79, seaLevel=1028.97, grndLevel=957.79, humidity=91, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01n)], clouds=Clouds(all=0), wind=Wind(speed=1.42, deg=168.005), sys=Sys(pod=n), date=2018-10-11T03:00, rain=Rain(h=0.0), snow=null), Items(dt=1539237600, main=Main(temp=279.123, tempMin=279.123, tempMax=279.123, pressure=957.72, seaLevel=1029.18, grndLevel=957.72, humidity=93, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01d)], clouds=Clouds(all=0), wind=Wind(speed=1.31, deg=151.001), sys=Sys(pod=d), date=2018-10-11T06:00, rain=Rain(h=0.0), snow=null), Items(dt=1539248400, main=Main(temp=288.321, tempMin=288.321, tempMax=288.321, pressure=958.59, seaLevel=1029.43, grndLevel=958.59, humidity=76, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=02d)], clouds=Clouds(all=8), wind=Wind(speed=1.77, deg=186.003), sys=Sys(pod=d), date=2018-10-11T09:00, rain=Rain(h=0.0), snow=null), Items(dt=1539259200, main=Main(temp=293.086, tempMin=293.086, tempMax=293.086, pressure=958.85, seaLevel=1029.23, grndLevel=958.85, humidity=68, tempKf=0.0), weather=[Weather(id=801, main=Clouds, description=few clouds, icon=02d)], clouds=Clouds(all=24), wind=Wind(speed=1.56, deg=210.503), sys=Sys(pod=d), date=2018-10-11T12:00, rain=Rain(h=0.0), snow=null), Items(dt=1539270000, main=Main(temp=293.165, tempMin=293.165, tempMax=293.165, pressure=959.29, seaLevel=1029.59, grndLevel=959.29, humidity=68, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=02d)], clouds=Clouds(all=8), wind=Wind(speed=1.25, deg=223.5), sys=Sys(pod=d), date=2018-10-11T15:00, rain=Rain(h=0.0), snow=null), Items(dt=1539280800, main=Main(temp=286.343, tempMin=286.343, tempMax=286.343, pressure=959.79, seaLevel=1030.6, grndLevel=959.79, humidity=89, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=02n)], clouds=Clouds(all=8), wind=Wind(speed=1.16, deg=88.0026), sys=Sys(pod=n), date=2018-10-11T18:00, rain=Rain(h=0.0), snow=null), Items(dt=1539291600, main=Main(temp=282.994, tempMin=282.994, tempMax=282.994, pressure=961.07, seaLevel=1032.11, grndLevel=961.07, humidity=88, tempKf=0.0), weather=[Weather(id=800, main=Clear, description=clear sky, icon=01n)], clouds=Clouds(all=0), wind=Wind(speed=1.16, deg=146.001), sys=Sys(pod=n), date=2018-10-11T21:00, rain=Rain(h=0.0), snow=null)], city=City(coord=Coord(lat=48.1371, lon=11.5754), id=2867714.0, name=Munich, country=DE, population=1260391))
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 4.5.1</a> at Oct 7, 2018 9:12:41 PM</p>
+</div>
+</div>
+</body>
+</html>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.finleap.forecast.controllers.WebLayerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-10-08T02:12:41" hostname="Juans-MacBook-Pro.local" time="0.075">
+  <properties/>
+  <testcase name="shouldReturnDefaultMessage" classname="com.finleap.forecast.controllers.WebLayerTest" time="0.075"/>
+  <system-out><![CDATA[2018-10-07 21:12:40.582  INFO 11939 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.finleap.forecast.controllers.WebLayerTest], using SpringBootContextLoader
+2018-10-07 21:12:40.582  INFO 11939 --- [    Test worker] o.s.t.c.support.AbstractContextLoader    : Could not detect default resource locations for test class [com.finleap.forecast.controllers.WebLayerTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+2018-10-07 21:12:40.583  INFO 11939 --- [    Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.finleap.forecast.controllers.WebLayerTest]: WebLayerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2018-10-07 21:12:40.602  INFO 11939 --- [    Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.finleap.forecast.ForecastApplication for test class com.finleap.forecast.controllers.WebLayerTest
+2018-10-07 21:12:40.602  INFO 11939 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2018-10-07 21:12:40.604  INFO 11939 --- [    Test worker] .b.t.a.w.s.WebMvcTestContextBootstrapper : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3d08a90d, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@5f9e1488, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@48132586, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@56d75894, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2eefc382, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@17ab883, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@5094923f, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@3ceb6341, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@6cc8548d, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@38a24737]
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.0.5.RELEASE)
+
+2018-10-07 21:12:40.625  INFO 11939 --- [    Test worker] c.f.forecast.controllers.WebLayerTest    : Starting WebLayerTest on Juans-MacBook-Pro.local with PID 11939 (started by jpramirez in /Users/jpramirez/code/tests/finelap/forecast)
+2018-10-07 21:12:40.626  INFO 11939 --- [    Test worker] c.f.forecast.controllers.WebLayerTest    : No active profile set, falling back to default profiles: default
+2018-10-07 21:12:40.627  INFO 11939 --- [    Test worker] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@30a97c85: startup date [Sun Oct 07 21:12:40 COT 2018]; root of context hierarchy
+2018-10-07 21:12:40.736  INFO 11939 --- [    Test worker] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2018-10-07 21:12:40.836  INFO 11939 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-07 21:12:40.913  INFO 11939 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@30a97c85: startup date [Sun Oct 07 21:12:40 COT 2018]; root of context hierarchy
+2018-10-07 21:12:40.924  INFO 11939 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/data],methods=[GET],produces=[application/json]}" onto public org.springframework.http.ResponseEntity<?> com.finleap.forecast.controller.ForecastController.get(java.lang.String)
+2018-10-07 21:12:40.925  INFO 11939 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-10-07 21:12:40.925  INFO 11939 --- [    Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-10-07 21:12:40.940  INFO 11939 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-07 21:12:40.940  INFO 11939 --- [    Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-10-07 21:12:41.025  INFO 11939 --- [    Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring FrameworkServlet ''
+2018-10-07 21:12:41.025  INFO 11939 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization started
+2018-10-07 21:12:41.044  INFO 11939 --- [    Test worker] o.s.t.web.servlet.TestDispatcherServlet  : FrameworkServlet '': initialization completed in 19 ms
+2018-10-07 21:12:41.059  INFO 11939 --- [    Test worker] c.f.forecast.controllers.WebLayerTest    : Started WebLayerTest in 0.453 seconds (JVM running for 8.413)
+
+MockHttpServletRequest:
+      HTTP Method = GET
+      Request URI = /data
+       Parameters = {CITY=[LONDON]}
+          Headers = {}
+             Body = <no character encoding set>
+    Session Attrs = {}
+
+Handler:
+             Type = com.finleap.forecast.controller.ForecastController
+           Method = public org.springframework.http.ResponseEntity<?> com.finleap.forecast.controller.ForecastController.get(java.lang.String)
+
+Async:
+    Async started = false
+     Async result = null
+
+Resolved Exception:
+             Type = null
+
+ModelAndView:
+        View name = null
+             View = null
+            Model = null
+
+FlashMap:
+       Attributes = null
+
+MockHttpServletResponse:
+           Status = 200
+    Error message = null
+          Headers = {Content-Type=[application/json;charset=UTF-8]}
+     Content type = application/json;charset=UTF-8
+             Body = {"averageDaily":10.0,"averageNightly":0.0,"averagePressure":6.0}
+    Forwarded URL = null
+   Redirected URL = null
+          Cookies = []
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

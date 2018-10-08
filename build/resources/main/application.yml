@@ -1,0 +1,8 @@
+openweathermap-api:
+  base-url: http://api.openweathermap.org/data/2.5/forecast
+  key: f15f69e02411b5957250f6b1bfe612e8
+
+spring:
+    jackson:
+      serialization:
+        write_dates_as_timestamps: false
