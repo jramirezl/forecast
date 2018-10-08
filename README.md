@@ -2,9 +2,9 @@
 
 ## Considerations
 
-Springboot framework was chosen for the solution. The credentials received from ``openweathermap`` to the the file,, were addesñd to the``application.yml`` file. 
+Springboot framework was chosen for the solution. The credentials received from ``openweathermap`` to the the file, were added to the``application.yml`` file. 
 
-Once Springboot it was chosen, tried to understand the API offered by: ``openweathermap``
+Once Springboot was chosen, tried to understand the API offered by: ``openweathermap``
 Some online tools used to generate the classes used to retrieve the data from the JSON that was received from the ``openweathermap`` API call as response.
 
 Tested using: ``London`` as parameter.
