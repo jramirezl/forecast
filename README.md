@@ -5,7 +5,7 @@
 Chosen Springboot framework for the solution. Added the credentials received from ``openweathermap`` to the the file applicaction.yml
 
 Once it was choosen springboot,  tried to understand de API offered by: ``openweathermap``
-Used some online tools to generate teh classes from the JSON received by the ``openweathermap`` API.
+Used some online tools to generate the classes from the JSON received by the ``openweathermap`` API.
 
 Tested using: ``London`` as parameter.
 
@@ -18,7 +18,7 @@ Used 2 Services, each one with its own concern,
 * **ForecastService** Responsible for processing all the data and calculate the average
 
 In the testing load the JSON sample file to load the ``ResponseDto`` which is the root object ``openweathermap`` from the response
-of teh API.
+of the API.
 
 If there is an error on the input it will return ``400 code`` on sucesss it will return ``200 code`` and if is there error on the API it will return ``500 code``
 
@@ -26,7 +26,7 @@ To calculate the average of the following datesm it was just considered the date
 
 For testing proposes I created 2 Providers Components
 * TimeStampProvider to get the current time and avoid to use PowerMockito in testing
-* ClientBuilderProvider to get teh JAX-RS client and avoid to use PowerMockito in testing
+* ClientBuilderProvider to get the JAX-RS client and avoid to use PowerMockito in testing
 
 ### Requirements
 
@@ -34,7 +34,7 @@ You must have installed jsdk 1.8 and the latest gradle version.
 
 ### Installation
 
-The installation process will compile teh code and run the tests, open a console and
+The installation process will compile the code and run the tests, open a console and
 run 
 
 ```sh
@@ -43,7 +43,7 @@ run
 
 ### Run the Application
 
-The installation process will compile teh code and run the tests, open a console and
+The installation process will compile the code and run the tests, open a console and
 run 
 
 ```sh
@@ -70,7 +70,7 @@ The next are the libs and tools used to work properly:
 * Improve tests, just happy path test were created
 * Fix WeatherRestServiceUnitTest test
 * Improve controller input validation
-* Manage better teh exception when the connection to the ``openweathermap`` API fails
+* Manage better the exception when the connection to the ``openweathermap`` API fails
 * Manage when a city doesn't exist
 
 
