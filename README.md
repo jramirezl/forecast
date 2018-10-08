@@ -20,11 +20,11 @@ Used 2 Services, each one with its own concern,
 In the testing load the JSON sample file to load the ``ResponseDto`` which is the root object ``openweathermap`` from the response
 of the API.
 
-If there is an error on the input it will return ``400 code`` on sucesss it will return ``200 code`` and if is there error on the API it will return ``500 code``
+If there is an error on the input it will return ``400 code`` on sucesss it will return ``200 code`` and if is there is an error on the API will return ``500 code``
 
-To calculate the average of the following datesm it was just considered the dates from the day after the current (tomorrow included) and count 3 days.
+To calculate the average of the following dates, it considered the dates after the current date (tomorrow included) and 3 days were counted. 
 
-For testing proposes I created 2 Providers Components
+For testing purpose I created 2 Providers Components
 * TimeStampProvider to get the current time and avoid to use PowerMockito in testing
 * ClientBuilderProvider to get the JAX-RS client and avoid to use PowerMockito in testing
 
