@@ -5,7 +5,7 @@
 Springboot framework was chosen for the solution. The credentials received from ``openweathermap`` to the the file, were added to the``application.yml`` file. 
 
 Once Springboot was chosen, tried to understand the API offered by: ``openweathermap``
-Some online tools used to generate the classes used to retrieve the data from the JSON that was received from the ``openweathermap`` API call as response.
+Some online tools used to generate the classes that helps to retrieve the data. The data is received in JSON format after, a``openweathermap`` API call is made. 
 
 Tested using: ``London`` as parameter.
 
@@ -29,7 +29,6 @@ For testing purposes, I created 2 Provider Components:
 * ClientBuilderProvider to get the JAX-RS client intance and avoid using PowerMockito in testing
 
 ### Requirements
-
 You must have jsdk 1.8 installed and the latest gradle version.
 
 ### Ins
