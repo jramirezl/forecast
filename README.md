@@ -2,20 +2,20 @@
 
 ## Considerations
 
-Chosen Springboot framework for the solution. Added the credentials received from ``openweathermap`` to the the file applicaction.yml
+Springboot framework was chosen for the solution. Added the credentials received from ``openweathermap`` to the the file,, ``application.yml``
 
 Once it was choosen springboot,  tried to understand de API offered by: ``openweathermap``
-Used some online tools to generate the classes from the JSON received by the ``openweathermap`` API.
+Some online tools used to generate the classes, havig the JSON received from the ``openweathermap`` API as input.
 
 Tested using: ``London`` as parameter.
 
-For testing it was just considered the happy path to test
+For testing, the happy path it was just considered. 
 
-Used 2 Services, each one with its own concern, 
+Two services were used, each one with its own concern: 
 
-* **WeatherRestService**: Responsible for getting getting the REST endpoint from the API
+* **WeatherRestService**: Responsible for getting the REST endpoint from the API. 
     
-* **ForecastService** Responsible for processing all the data and calculate the average
+* **ForecastService** Responsible for processing all the data and calculate the average. 
 
 In the testing load the JSON sample file to load the ``ResponseDto`` which is the root object ``openweathermap`` from the response
 of the API.
