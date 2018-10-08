@@ -21,7 +21,7 @@ Used 2 Services, each one with its own concern,
 In the testing load the JSON sample file to load the ``ResponseDto`` which is the root object ``openweathermap`` from the response
 of teh API.
 
-If the is an error on the input it will return ``400 code`` on sucesss it will return ``200 code`` and if is tehre enrron on the API it will return ``500 code``
+If there is an error on the input it will return ``400 code`` on sucesss it will return ``200 code`` and if is tehre enrron on the API it will return ``500 code``
 
 To calculate the average of the following datesm it was just considered the dates from the day after the current (tomorrow included) and count 3 days.
 
@@ -33,7 +33,7 @@ For testing proposes I created 2 Providers Components
 
 You must have installed jsdk 1.8 and the latest gradle version.
 
-##Installation
+### Installation
 
 The installation process will compile teh code and run the tests, open a console and
 run 
